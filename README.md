@@ -1,10 +1,22 @@
-# Jaams Combatify
+# Jaam's Weaponry CC
 
-Mod generado a partir de la plantilla.
+Addon de **Jaam's Weaponry** para Minecraft Forge 1.20.1 que añade armas y herramientas de **Silver** y **Necromium**.
 
-## Personalizar
+## Contenido
 
-- Edita \uild.gradle\ y cambia la version
-- Edita \META-INF/mods.toml\ y completa la descripcion
-- Agrega tus registros en el constructor de \${modClassName}.java\
-- Usa las tareas de VS Code (Ctrl+Shift+P -> Tasks) para compilar o ejecutar
+- **Silver** — conjunto de armas plateadas
+- **Necromium** — conjunto de armas de necromio
+
+## Requisitos
+
+- Minecraft 1.20.1
+- Forge 46.x
+- Jaam's Weaponry (mod base)
+
+## Construcción
+
+```bash
+./gradlew build
+```
+
+El archivo JAR se generará en `build/libs/`.
