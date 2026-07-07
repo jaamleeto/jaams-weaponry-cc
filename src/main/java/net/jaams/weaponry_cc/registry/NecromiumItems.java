@@ -2,6 +2,7 @@ package net.jaams.weaponry_cc.registry;
 
 import net.jaams.weaponry_cc.JaamsWeaponryCCMod;
 import net.jaams.weaponry.item.tiered.TieredWeapons;
+import net.jaams.weaponry_cc.item.NecromiumShotgunItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -122,5 +123,5 @@ public class NecromiumItems {
     // -- Gun / Shotgun --
 
     public static final RegistryObject<Item> NECROMIUM_SHOTGUN = REGISTRY.register("necromium_shotgun",
-            () -> TieredWeapons.simpleItem(1661, 15, true));
+            () -> new NecromiumShotgunItem(new Item.Properties().durability(1661).fireResistant()));
 }
