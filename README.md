@@ -1,22 +1,22 @@
-# Jaam's Weaponry CC
+# Jaam's Weaponry: Caverns & Chasms
 
-Addon de **Jaam's Weaponry** para Minecraft Forge 1.20.1 que añade armas y herramientas de **Silver** y **Necromium**.
+An addon for **Jaam's Weaponry** mod for Minecraft Forge 1.20.1 that adds **Silver** and **Necromium** weapons and tools.
 
-## Contenido
+## Content
 
-- **Silver** — conjunto de armas plateadas
-- **Necromium** — conjunto de armas de necromio
+- **Silver** — a set of silver weapons
+- **Necromium** — a set of necromium weapons
 
-## Requisitos
+## Requirements
 
 - Minecraft 1.20.1
 - Forge 46.x
-- Jaam's Weaponry (mod base)
+- Jaam's Weaponry (base mod)
 
-## Construcción
+## Build
 
 ```bash
 ./gradlew build
 ```
 
-El archivo JAR se generará en `build/libs/`.
+The JAR file will be generated in `build/libs/`.
