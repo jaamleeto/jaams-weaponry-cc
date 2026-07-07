@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "jaams_weaponry:diamond_sickle"
+    },
+    "addition": {
+        "item": "caverns_and_chasms:necromium_ingot"
+    },
+    "result": {
+        "item": "jaams_weaponry_cc:necromium_sickle"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}

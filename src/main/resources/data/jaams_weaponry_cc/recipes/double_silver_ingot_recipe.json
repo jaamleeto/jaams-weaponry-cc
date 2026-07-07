@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "double_ingot",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "jaams_weaponry:misc/forging_tool"
+        },
+        {
+            "item": "caverns_and_chasms:silver_ingot"
+        },
+        {
+            "item": "caverns_and_chasms:silver_ingot"
+        }
+    ],
+    "result": {
+        "item": "jaams_weaponry_cc:double_silver_ingot",
+        "count": 1
+    }
+}

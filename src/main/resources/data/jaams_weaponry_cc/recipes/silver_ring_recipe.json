@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "ring",
+    "category": "equipment",
+    "pattern": [
+        "aa",
+        "ab"
+    ],
+    "key": {
+        "a": {
+            "item": "caverns_and_chasms:silver_ingot"
+        },
+        "b": {
+            "item": "jaams_weaponry:short_stick"
+        }
+    },
+    "result": {
+        "item": "jaams_weaponry_cc:silver_ring",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}

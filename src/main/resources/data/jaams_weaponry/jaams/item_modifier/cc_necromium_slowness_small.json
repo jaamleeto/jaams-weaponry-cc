@@ -1,0 +1,33 @@
+{
+    "target": [
+        "jaams_weaponry_cc:necromium_dagger",
+        "jaams_weaponry_cc:necromium_dagger_reverse",
+        "jaams_weaponry_cc:necromium_knuckle",
+        "jaams_weaponry_cc:necromium_cleaver",
+        "jaams_weaponry_cc:necromium_ring",
+        "jaams_weaponry_cc:necromium_kama",
+        "jaams_weaponry_cc:necromium_claw",
+        "jaams_weaponry_cc:necromium_spear"
+    ],
+    "priority": 0,
+    "condition_mode": "and",
+    "conditions": [
+        {
+            "type": "mod_loaded",
+            "mod_id": "caverns_and_chasms"
+        }
+    ],
+    "modifiers": {
+        "slots": [
+            "mainhand"
+        ],
+        "attributes": [
+            {
+                "attribute": "caverns_and_chasms:slowness_infliction",
+                "name": "Necromium Slowness",
+                "amount": 0.5,
+                "operation": "addition"
+            }
+        ]
+    }
+}

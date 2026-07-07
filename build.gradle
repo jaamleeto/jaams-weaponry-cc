@@ -1,0 +1,89 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = '1.0.0'
+group = 'net.jaams.weaponry_cc'
+archivesBaseName = 'jaams_weaponry_cc'
+
+project.ext.mcVersion = '1.20.1'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    copyIdeResources = true
+
+    accessTransformer = file('src/main/resources/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                jaams_weaponry_cc {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                jaams_weaponry_cc {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven { url 'https://cursemaven.com/' }
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Blueprint
+    implementation fg.deobf("curse.maven:blueprint-382216:8048579")
+
+    // Jaam's Weaponry (local build or CurseForge)
+    implementation fg.deobf("curse.maven:jaams-weaponry-1361012:8349882")
+
+    // Caverns & Chasms
+    implementation fg.deobf("curse.maven:caverns-and-chasms-438005:7935118")
+}
+
+mixin {
+    add sourceSets.main, 'mixins.jaams_weaponry_cc.refmap.json'
+
+    config 'mixins.jaams_weaponry_cc.json'
+
+    debug.verbose = true
+    debug.export = true
+    dumpTargetOnFailure = true
+
+    quiet
+}
+
+jar {
+    archiveFileName = "${archivesBaseName}-${project.version}-forge-${mcVersion}.jar"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

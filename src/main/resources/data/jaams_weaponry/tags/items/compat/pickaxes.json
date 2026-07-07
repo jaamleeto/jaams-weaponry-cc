@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "jaams_weaponry_cc:silver_pickaxe",
+            "required": false
+        },
+        {
+            "id": "jaams_weaponry_cc:necromium_pickaxe",
+            "required": false
+        }
+    ]
+}

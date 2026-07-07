@@ -1,0 +1,276 @@
+{
+    "tab_id": "weaponry",
+    "priority": 0,
+    "entries": [
+        {
+            "item": "jaams_weaponry_cc:silver_dagger",
+            "after": "jaams_weaponry:double_gold_ingot",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_knuckle",
+            "after": "jaams_weaponry_cc:silver_dagger",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_cleaver",
+            "after": "jaams_weaponry_cc:silver_knuckle",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_ring",
+            "after": "jaams_weaponry_cc:silver_cleaver",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_kama",
+            "after": "jaams_weaponry_cc:silver_ring",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_claw",
+            "after": "jaams_weaponry_cc:silver_kama",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_machete",
+            "after": "jaams_weaponry_cc:silver_claw",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_katar",
+            "after": "jaams_weaponry_cc:silver_machete",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_hammer",
+            "after": "jaams_weaponry_cc:silver_katar",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_battle_axe",
+            "after": "jaams_weaponry_cc:silver_hammer",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_sickle",
+            "after": "jaams_weaponry_cc:silver_battle_axe",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_longsword",
+            "after": "jaams_weaponry_cc:silver_sickle",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_zweihander",
+            "after": "jaams_weaponry_cc:silver_longsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_greatsword",
+            "after": "jaams_weaponry_cc:silver_zweihander",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_broadsword",
+            "after": "jaams_weaponry_cc:silver_greatsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_buster_sword",
+            "after": "jaams_weaponry_cc:silver_broadsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_katana",
+            "after": "jaams_weaponry_cc:silver_buster_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_butterfly_sword",
+            "after": "jaams_weaponry_cc:silver_katana",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_hook_sword",
+            "after": "jaams_weaponry_cc:silver_butterfly_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_scythe",
+            "after": "jaams_weaponry_cc:silver_hook_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_greathammer",
+            "after": "jaams_weaponry_cc:silver_scythe",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_spear",
+            "after": "jaams_weaponry_cc:silver_greathammer",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_twinblade",
+            "after": "jaams_weaponry_cc:silver_spear",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_saw_cleaver",
+            "after": "jaams_weaponry_cc:silver_twinblade",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:silver_scattergun",
+            "after": "jaams_weaponry_cc:silver_saw_cleaver",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:heavy_silver_ingot",
+            "after": "jaams_weaponry_cc:silver_scattergun",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:double_silver_ingot",
+            "after": "jaams_weaponry_cc:heavy_silver_ingot",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        }
+    ]
+}

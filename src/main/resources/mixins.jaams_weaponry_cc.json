@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "net.jaams.weaponry_cc.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "mixins.jaams_weaponry_cc.refmap.json",
+    "mixins": [
+        "common.KunaiItemMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "minVersion": "0.8"
+}

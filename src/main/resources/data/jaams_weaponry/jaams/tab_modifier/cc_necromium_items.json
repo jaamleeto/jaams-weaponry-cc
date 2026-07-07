@@ -1,0 +1,276 @@
+{
+    "tab_id": "weaponry",
+    "priority": 0,
+    "entries": [
+        {
+            "item": "jaams_weaponry_cc:necromium_dagger",
+            "after": "jaams_weaponry:double_netherite_ingot",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_knuckle",
+            "after": "jaams_weaponry_cc:necromium_dagger",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_cleaver",
+            "after": "jaams_weaponry_cc:necromium_knuckle",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_ring",
+            "after": "jaams_weaponry_cc:necromium_cleaver",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_kama",
+            "after": "jaams_weaponry_cc:necromium_ring",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_claw",
+            "after": "jaams_weaponry_cc:necromium_kama",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_machete",
+            "after": "jaams_weaponry_cc:necromium_claw",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_katar",
+            "after": "jaams_weaponry_cc:necromium_machete",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_hammer",
+            "after": "jaams_weaponry_cc:necromium_katar",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_battle_axe",
+            "after": "jaams_weaponry_cc:necromium_hammer",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_sickle",
+            "after": "jaams_weaponry_cc:necromium_battle_axe",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_longsword",
+            "after": "jaams_weaponry_cc:necromium_sickle",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_zweihander",
+            "after": "jaams_weaponry_cc:necromium_longsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_greatsword",
+            "after": "jaams_weaponry_cc:necromium_zweihander",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_broadsword",
+            "after": "jaams_weaponry_cc:necromium_greatsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_buster_sword",
+            "after": "jaams_weaponry_cc:necromium_broadsword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_katana",
+            "after": "jaams_weaponry_cc:necromium_buster_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_butterfly_sword",
+            "after": "jaams_weaponry_cc:necromium_katana",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_hook_sword",
+            "after": "jaams_weaponry_cc:necromium_butterfly_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_scythe",
+            "after": "jaams_weaponry_cc:necromium_hook_sword",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_greathammer",
+            "after": "jaams_weaponry_cc:necromium_scythe",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_spear",
+            "after": "jaams_weaponry_cc:necromium_greathammer",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_twinblade",
+            "after": "jaams_weaponry_cc:necromium_spear",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_saw_cleaver",
+            "after": "jaams_weaponry_cc:necromium_twinblade",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:necromium_shotgun",
+            "after": "jaams_weaponry_cc:necromium_saw_cleaver",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:heavy_necromium_ingot",
+            "after": "jaams_weaponry_cc:necromium_shotgun",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        },
+        {
+            "item": "jaams_weaponry_cc:double_necromium_ingot",
+            "after": "jaams_weaponry_cc:heavy_necromium_ingot",
+            "weight": 0,
+            "conditions": [
+                {
+                    "mod_id": "caverns_and_chasms"
+                }
+            ]
+        }
+    ]
+}

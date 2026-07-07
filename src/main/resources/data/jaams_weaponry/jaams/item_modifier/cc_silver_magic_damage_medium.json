@@ -1,0 +1,41 @@
+{
+    "target": [
+        "jaams_weaponry_cc:silver_machete",
+        "jaams_weaponry_cc:silver_katar",
+        "jaams_weaponry_cc:silver_sickle",
+        "jaams_weaponry_cc:silver_katana",
+        "jaams_weaponry_cc:silver_butterfly_sword",
+        "jaams_weaponry_cc:silver_hook_sword",
+        "jaams_weaponry_cc:silver_scythe",
+        "jaams_weaponry_cc:silver_twinblade",
+        "jaams_weaponry_cc:silver_saw_cleaver",
+        "jaams_weaponry_cc:silver_saw_cleaver_unfolded",
+        "jaams_weaponry_cc:silver_battle_axe",
+        "jaams_weaponry_cc:silver_hammer",
+        "jaams_weaponry_cc:silver_longsword",
+        "jaams_weaponry_cc:silver_zweihander",
+        "jaams_weaponry_cc:silver_greatsword",
+        "jaams_weaponry_cc:silver_broadsword"
+    ],
+    "priority": 0,
+    "condition_mode": "and",
+    "conditions": [
+        {
+            "type": "mod_loaded",
+            "mod_id": "caverns_and_chasms"
+        }
+    ],
+    "modifiers": {
+        "slots": [
+            "mainhand"
+        ],
+        "attributes": [
+            {
+                "attribute": "caverns_and_chasms:magic_damage",
+                "name": "Silver Magic Damage",
+                "amount": 5.0,
+                "operation": "addition"
+            }
+        ]
+    }
+}

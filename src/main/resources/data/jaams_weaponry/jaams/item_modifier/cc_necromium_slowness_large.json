@@ -1,0 +1,29 @@
+{
+    "target": [
+        "jaams_weaponry_cc:necromium_longsword",
+        "jaams_weaponry_cc:necromium_zweihander",
+        "jaams_weaponry_cc:necromium_greatsword",
+        "jaams_weaponry_cc:necromium_broadsword"
+    ],
+    "priority": 0,
+    "condition_mode": "and",
+    "conditions": [
+        {
+            "type": "mod_loaded",
+            "mod_id": "caverns_and_chasms"
+        }
+    ],
+    "modifiers": {
+        "slots": [
+            "mainhand"
+        ],
+        "attributes": [
+            {
+                "attribute": "caverns_and_chasms:slowness_infliction",
+                "name": "Necromium Slowness",
+                "amount": 2.0,
+                "operation": "addition"
+            }
+        ]
+    }
+}

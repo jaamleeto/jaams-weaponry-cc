@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "base": {
+        "item": "jaams_weaponry:diamond_shotgun"
+    },
+    "addition": {
+        "item": "jaams_weaponry_cc:double_necromium_ingot"
+    },
+    "result": {
+        "item": "jaams_weaponry_cc:necromium_shotgun"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "parent": "item/generated",
+    "loader": "forge:separate_transforms",
+    "textures": {
+        "layer0": "jaams_weaponry_cc:item/necromium_katana"
+    },
+    "base": {
+        "parent": "jaams_weaponry_cc:item/necromium_katana_gui"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_gui"
+        },
+        "ground": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_gui"
+        },
+        "fixed": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_gui"
+        },
+        "firstperson_righthand": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_handheld"
+        },
+        "firstperson_lefthand": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_handheld"
+        },
+        "thirdperson_righthand": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_handheld"
+        },
+        "thirdperson_lefthand": {
+            "parent": "jaams_weaponry_cc:item/necromium_katana_handheld"
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "jaams_weaponry:weapon_skin": 0
+            },
+            "model": "jaams_weaponry_cc:item/necromium_katana_0"
+        },
+        {
+            "predicate": {
+                "jaams_weaponry:weapon_skin": 1
+            },
+            "model": "jaams_weaponry:item/modeldata/katana_skin_1"
+        },
+        {
+            "predicate": {
+                "jaams_weaponry:weapon_skin": 2
+            },
+            "model": "jaams_weaponry:item/modeldata/katana_skin_2"
+        },
+        {
+            "predicate": {
+                "jaams_weaponry:weapon_skin": 3
+            },
+            "model": "jaams_weaponry:item/modeldata/katana_skin_3"
+        },
+        {
+            "predicate": {
+                "jaams_weaponry:weapon_skin": 4
+            },
+            "model": "jaams_weaponry:item/modeldata/katana_skin_4"
+        }
+    ]
+}

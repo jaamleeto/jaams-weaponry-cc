@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT License"
+
+[[mods]]
+modId = "jaams_weaponry_cc"
+version = "1.0.0"
+displayName = "Jaam's Weaponry: Caverns and Chams Addon"
+displayURL="https://linktr.ee/jaamleeto"
+logoFile = "jaams_weaponry_cc_banner.png"
+authors = "Jaamleeto"
+description = "Adds Silver and Necromium tiers from Caverns & Chasms to Jaam's Weaponry."
+issueTrackerURL="https://linktr.ee/jaamleeto"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId = "jaams_weaponry"
+    mandatory = true
+    versionRange = "[1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId = "caverns_and_chasms"
+    mandatory = true
+    versionRange = "[1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+    [modproperties."jaams_weaponry_cc"]
+    catalogueItemIcon="jaams_weaponry_cc:silver_buster_sword"
+    catalogueBackground=""
+    configuredBackground="minecraft:textures/block/spruce_planks.png"

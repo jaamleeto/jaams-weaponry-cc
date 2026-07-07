@@ -1,0 +1,27 @@
+{
+    "target": [
+        "jaams_weaponry_cc:silver_buster_sword",
+        "jaams_weaponry_cc:silver_greathammer"
+    ],
+    "priority": 0,
+    "condition_mode": "and",
+    "conditions": [
+        {
+            "type": "mod_loaded",
+            "mod_id": "caverns_and_chasms"
+        }
+    ],
+    "modifiers": {
+        "slots": [
+            "mainhand"
+        ],
+        "attributes": [
+            {
+                "attribute": "caverns_and_chasms:magic_damage",
+                "name": "Silver Magic Damage",
+                "amount": 6.0,
+                "operation": "addition"
+            }
+        ]
+    }
+}

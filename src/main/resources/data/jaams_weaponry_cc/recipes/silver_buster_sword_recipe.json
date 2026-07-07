@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "buster_sword",
+    "category": "equipment",
+    "pattern": [
+        "a",
+        "a",
+        "b"
+    ],
+    "key": {
+        "a": {
+            "item": "jaams_weaponry_cc:heavy_silver_ingot"
+        },
+        "b": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "jaams_weaponry_cc:silver_buster_sword",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}
