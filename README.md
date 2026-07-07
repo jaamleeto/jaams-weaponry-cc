@@ -13,10 +13,3 @@ An addon for **Jaam's Weaponry** mod for Minecraft Forge 1.20.1 that adds **Silv
 - Forge 46.x
 - Jaam's Weaponry (base mod)
 
-## Build
-
-```bash
-./gradlew build
-```
-
-The JAR file will be generated in `build/libs/`.
