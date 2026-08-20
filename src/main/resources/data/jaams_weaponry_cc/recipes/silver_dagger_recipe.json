@@ -15,12 +15,12 @@
         }
     },
     "result": {
-        "item": "jaams_weaponry_cc:silver_dagger",
+        "id": "jaams_weaponry_cc:silver_dagger",
         "count": 1
     },
     "conditions": [
         {
-            "type": "forge:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "caverns_and_chasms"
         }
     ]

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
-  "loader": "forge:separate_transforms",
+  "loader": "neoforge:separate_transforms",
   "textures": {
     "layer0": "jaams_weaponry_cc:item/silver_scattergun"
   },

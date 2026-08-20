@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT License"
+
+[[mods]]
+modId="jaams_weaponry_cc"
+version="1.0.0"
+displayName="Jaam's Weaponry: Caverns and Chasms Addon"
+displayURL="https://linktr.ee/jaamleeto"
+logoFile="jaams_weaponry_cc_banner.png"
+authors="Jaamleeto"
+description="Adds Silver and Necromium tiers from Caverns & Chasms to Jaam's Weaponry."
+issueTrackerURL="https://github.com/jaamleeto/jaams-weaponry-cc/issues"
+
+[[mixins]]
+config="mixins.jaams_weaponry_cc.json"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId="jaams_weaponry"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.jaams_weaponry_cc]]
+    modId="caverns_and_chasms"
+    type="required"
+    versionRange="[1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[modproperties."jaams_weaponry_cc"]
+catalogueItemIcon="jaams_weaponry_cc:silver_buster_sword"

@@ -9,7 +9,7 @@
     ],
     "key": {
         "a": {
-            "item": "jaams_weaponry_cc:double_silver_ingot"
+            "id": "jaams_weaponry_cc:double_silver_ingot"
         },
         "b": {
             "item": "minecraft:fire_charge"
@@ -18,19 +18,19 @@
             "item": "jaams_weaponry:short_stick"
         },
         "d": {
-            "item": "jaams_weaponry_cc:heavy_silver_ingot"
+            "id": "jaams_weaponry_cc:heavy_silver_ingot"
         },
         "e": {
             "item": "minecraft:leather"
         }
     },
     "result": {
-        "item": "jaams_weaponry_cc:silver_scattergun",
+        "id": "jaams_weaponry_cc:silver_scattergun",
         "count": 1
     },
     "conditions": [
         {
-            "type": "forge:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "caverns_and_chasms"
         }
     ]

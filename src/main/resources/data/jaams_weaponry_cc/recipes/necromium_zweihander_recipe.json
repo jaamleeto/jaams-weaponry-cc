@@ -7,14 +7,14 @@
         "item": "jaams_weaponry:diamond_zweihander"
     },
     "addition": {
-        "item": "jaams_weaponry_cc:double_necromium_ingot"
+        "id": "jaams_weaponry_cc:double_necromium_ingot"
     },
     "result": {
-        "item": "jaams_weaponry_cc:necromium_zweihander"
+        "id": "jaams_weaponry_cc:necromium_zweihander"
     },
     "conditions": [
         {
-            "type": "forge:mod_loaded",
+            "type": "neoforge:mod_loaded",
             "modid": "caverns_and_chasms"
         }
     ]

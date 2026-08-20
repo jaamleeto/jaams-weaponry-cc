@@ -7,14 +7,14 @@
             "tag": "jaams_weaponry:misc/forging_tool"
         },
         {
-            "item": "jaams_weaponry_cc:double_necromium_ingot"
+            "id": "jaams_weaponry_cc:double_necromium_ingot"
         },
         {
-            "item": "jaams_weaponry_cc:double_necromium_ingot"
+            "id": "jaams_weaponry_cc:double_necromium_ingot"
         }
     ],
     "result": {
-        "item": "jaams_weaponry_cc:heavy_necromium_ingot",
+        "id": "jaams_weaponry_cc:heavy_necromium_ingot",
         "count": 1
     }
 }
