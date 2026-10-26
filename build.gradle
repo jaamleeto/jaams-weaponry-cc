@@ -65,6 +65,9 @@ dependencies {
 
     // Caverns & Chasms
     implementation 'curse.maven:caverns-and-chasms-438005:8155745'
+
+    // JEI
+    implementation 'curse.maven:jei-238222:7391682'
 }
 
 jar {

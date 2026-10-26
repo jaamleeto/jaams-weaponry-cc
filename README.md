@@ -1,15 +1,15 @@
 # Jaam's Weaponry: Caverns & Chasms
 
-An addon for **Jaam's Weaponry** mod for Minecraft Forge 1.20.1 that adds **Silver** and **Necromium** weapons and tools.
+An addon for **Jaam's Weaponry** mod for Minecraft NeoForge 1.21.1 that adds **Silver** and **Necromium** weapons and tools.
 
 ## Content
 
-- **Silver** — a set of silver weapons
-- **Necromium** — a set of necromium weapons
+- **Silver** - a set of silver weapons
+- **Necromium** - a set of necromium weapons
 
 ## Requirements
 
-- Minecraft 1.20.1
-- Forge 46.x
+- Minecraft 1.21.1
+- NeoForge 21.1.x
 - Jaam's Weaponry (base mod)
-
+- Caverns & Chasms (port for 1.21.1)

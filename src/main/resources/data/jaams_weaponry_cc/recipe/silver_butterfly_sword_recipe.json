@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "butterfly_sword",
+    "category": "equipment",
+    "pattern": [
+        "  a",
+        "ab ",
+        "c  "
+    ],
+    "key": {
+        "a": {
+            "item": "caverns_and_chasms:silver_ingot"
+        },
+        "b": {
+            "item": "jaams_weaponry_cc:double_silver_ingot"
+        },
+        "c": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "jaams_weaponry_cc:silver_butterfly_sword",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}

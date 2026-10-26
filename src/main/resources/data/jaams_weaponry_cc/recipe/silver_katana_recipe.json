@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "katana",
+    "category": "equipment",
+    "pattern": [
+        "  a",
+        " a ",
+        "b  "
+    ],
+    "key": {
+        "a": {
+            "item": "jaams_weaponry_cc:double_silver_ingot"
+        },
+        "b": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "jaams_weaponry_cc:silver_katana",
+        "count": 1
+    },
+    "conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "caverns_and_chasms"
+        }
+    ]
+}
